@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root {
+    --lighatColor:white;
+    --bgColor-1:#2B2B2B;
+    --textColor:#bcbbbb;
+    --bgtxColor:rgb(133, 133, 133);
+    --bglistColor:#2b2b2bc0;
+    --searchcolor:rgb(73, 73, 73);
+    
+}
+
+
+html{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color: var(--bgColor-1);
+}
+
+
+
+
+header{
+    border: 2px solid rgba(65, 65, 65, 0);
+    background: var(--bglistColor);
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    z-index: 100;
+    /* width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px; */
+}
+
+.logo{
+    text-decoration: none;
+    color: var(--lighatColor);
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5em;
+    /* padding: 10px 15px 10px 5px;
+    font-size: 1.5em; */
+
+}
+
+
+.menu-list{
+    
+    width: 50%;
+    margin: -30px 340px 0 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: var(--textColor);
+    font-size: 1.1em;
+    padding-left: 1.2em;
+}
+
+.menu-list a:hover{
+    color: var(--lighatColor);
+}
+
+
+section.new-show{
+    padding: 70px 20px 30px 10px;
+}
+
+
+section{
+    padding: 20px 20px 30px 10px;
+}
+
+
+.new-co-posters img{
+    
+    width: 350px;
+    height: 220px;
+    
+}
+
+
+.new-po-posters img{
+    
+    width: auto;
+    
+}
+
+.title{
+    font-size: 1.4em;
+    color: var(--lighatColor);
+
+}
+
+
+.row__poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    transition: 0.5s ease;
+
+}
+
+
+.row__poster:hover{
+    transform: scale(1.05);
+}
+
+
+.new-co-posters{
+    display: flex;
+    overflow: hidden;
+    overflow: scroll;
+    padding: 20px;
+}
+
+.new-po-posters{
+    display: flex;
+    overflow: hidden;
+    overflow: scroll;
+    padding: 20px;
+}
+
+
+.new-po-posters::-webkit-scrollbar{
+    display: none;
+}
+
+
+.new-co-posters::-webkit-scrollbar{
+    display: none;
+}
+
+
+.co-poster{
+    border-radius: 20px;
+    max-height: 200px;
+    margin: 8px;
+}
+
+
+.po-poster{
+    border-radius: 10px;
+    max-height: 230px;
+    margin: 8px;
+}
+
+
+footer{
+    color: white;
+}
+
+

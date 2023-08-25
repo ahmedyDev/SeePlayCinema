@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root {
+    --lighatColor:white;
+    --bgColor-1:#2b2b2b;
+    --textColor:#bcbbbb;
+    --bgtxColor:rgb(133, 133, 133);
+    --bglistColor:#2b2b2bc0;
+    --searchcolor:rgb(73, 73, 73);
+    
+}
+
+
+html{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color: var(--bgColor-1);
+    
+}
+
+
+
+
+header{
+    border: 2px solid rgba(65, 65, 65, 0);
+    background: var(--bglistColor);
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo{
+    text-decoration: none;
+    color: var(--lighatColor);
+    font-family: 'Manrope', sans-serif;
+    padding: 10px 15px 10px 5px;
+    font-size: 1.5em;
+
+}
+
+
+.menu-list{
+    
+    width: 50%;
+    margin: -30px 320px 0 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: var(--textColor);
+    font-size: 1.1em;
+    padding-left: 1.2em;
+}
+
+.menu-list a:hover{
+    color: var(--lighatColor);
+}
+
+.Poster{
+    margin: 90px 30px 0 0;
+    width: 230px;
+    border-radius: 10px;
+    
+}
+
+.Comment{
+    color: var(--lighatColor);
+    
+    margin: -320px 300px 300px 150px;
+    
+}
+
+.Comment h1{
+    font-size: 30px;
+}
+
+.Comment p{
+    font-size: 18px;
+}
+
+.TiMshahdh{
+    color: var(--lighatColor);
+    font-size: 25px;
+    margin: 0 60px 30px 0;
+}
+
+.movie{
+    
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    
+    height: 0px;
+}
+
+.movie iframe{
+    border: 0px solid var(--bordervid);
+    position: absolute;
+    left: 0px;
+    right: 5%;
+    top: 0px;
+    bottom: 100px;
+    height: 90%;
+    width: 90%;
+    
+}
+
+
+footer{
+    color: var(--lighatColor);
+}
